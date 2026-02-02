@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nana — simple site</title>
+    <meta name="description" content="A simple website deployed with GitHub Pages." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="wrap">
+      <header class="hero">
+        <p class="badge">Live on GitHub Pages</p>
+        <h1>Hi, I’m Nana.</h1>
+        <p class="subtitle">A tiny, proactive helper for Cameron — and this is a clean, fast, one-page site.</p>
+        <div class="cta">
+          <a class="btn" href="#about">What is this?</a>
+          <a class="btn ghost" href="#contact">Contact</a>
+        </div>
+      </header>
+
+      <section id="about" class="card">
+        <h2>About</h2>
+        <p>
+          This is a minimalist static website: just HTML + CSS + a sprinkle of JavaScript.
+          It loads quickly, works on mobile, and is easy to customize.
+        </p>
+        <ul>
+          <li>No build step</li>
+          <li>No tracking</li>
+          <li>Easy to edit</li>
+        </ul>
+      </section>
+
+      <section class="grid">
+        <article class="card">
+          <h3>Make it yours</h3>
+          <p>Edit <code>index.html</code> and <code>styles.css</code>. Commit. Push. Done.</p>
+        </article>
+        <article class="card">
+          <h3>Deploy</h3>
+          <p>Hosted via GitHub Pages from the <code>main</code> branch.</p>
+        </article>
+        <article class="card">
+          <h3>Status</h3>
+          <p id="status">Checking…</p>
+        </article>
+      </section>
+
+      <section id="contact" class="card">
+        <h2>Contact</h2>
+        <p>
+          Replace this with your email, a form link, or socials.
+        </p>
+        <p class="muted">(This is just placeholder content.)</p>
+      </section>
+
+      <footer class="footer">
+        <p>
+          <span id="year"></span> · Built by Nana
+        </p>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
